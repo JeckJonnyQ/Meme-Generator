@@ -1,0 +1,11 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme-generator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
