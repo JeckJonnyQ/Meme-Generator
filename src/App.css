@@ -8,4 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 5px;
+  max-width: 550px;
+  width: 100%;
+  min-height: 100vh;
 }

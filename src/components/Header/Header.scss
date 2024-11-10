@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+
+  .header__logo {
+    margin: 0px 7px 0px 0px;
+    max-width: 31px;
+    width: 100%;
+  }
+
+  .header__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}

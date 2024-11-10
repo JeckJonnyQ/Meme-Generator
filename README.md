@@ -8,9 +8,9 @@
 # Деплой Проекта на GH-PAGES
 
 5. `npm install gh-pages --save-dev` - устанавливаем gh-pages в зависимости.
-6. В package.json прописываем `"homepage": "https://JeckJonnyQ.github.io/Airbnb-Scrimba"` с никнеймом гитхаба через домен io и название проекта.
+6. В package.json прописываем `"homepage": "https://JeckJonnyQ.github.io/Meme-Generator"` с никнеймом гитхаба через домен io и название проекта.
 7. Далее прописываем в `"scripts" ----> "deploy": "npm run build && gh-pages -d dist"`, для создания ветки gh-pages при деплое проекта, где дист название папки со сбилдженым проектом.
-8. Прописать `base: "/Airbnb-Scrimba"` в Vite конфиге (путь к репозиторию с названием нашей папки/проекта)
+8. Прописать `base: "/Meme-Generator"` в Vite конфиге (путь к репозиторию с названием нашей папки/проекта)
 9. Удалить папку dist (если она уже создана)
 10. `npm run build` - (билдим проект).
 11. `npm run deploy` - (билдим проект на гх-пейджес).
