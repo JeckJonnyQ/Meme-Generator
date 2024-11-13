@@ -6,10 +6,9 @@
 
 .meme-generator {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0px 5px;
+  margin: 100px 5px;
   max-width: 550px;
   width: 100%;
-  min-height: 100vh;
 }
